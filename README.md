@@ -41,6 +41,7 @@ Your student is comprised of the following information:
 * Don’t mix tabs and spaces.
 * Populate the XML and JSON documents with two distinct people who have the same first and last names.
 * Implement the JSON and XML independently, then compare, as one will likely be more logical than the other.
+* Use the content in the included `content.md` file to test your work.
 
 ### XML Section
 
