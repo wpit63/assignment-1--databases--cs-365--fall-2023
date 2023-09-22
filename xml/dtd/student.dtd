@@ -1,0 +1,38 @@
+<!--
+The root element: student-index
+
+The student-index container (root) element must contain one or more
+student elements, which is represented by the + metacharacter: one
+required; unlimited allowed.
+
+Note: This element may not contain parsed character data (PCDATA) that
+includes entities, or simple character data (CDATA).
+-->
+<!ELEMENT student-index (student)+>
+
+<!--
+A student must contain a first-name, last-name, email, phone, year, gpa,
+major, status, advisor, enroll-date, and grad-date, and may contain a middle-name,
+pref-name, and a minor.
+-->
+
+<!ELEMENT student (first-name, middle-name?, last-name, pref-name?, email, phone, year, gpa, major, 
+minor?, status, advisor, enroll-date, grad-date)>
+
+<!ELEMENT first-name    (#PCDATA)>
+<!ELEMENT middle-name   (#PCDATA)>
+<!ELEMENT last-name     (#PCDATA)>
+<!ELEMENT pref-name     (#PCDATA)>
+<!ELEMENT email         (#PCDATA)>
+<!ELEMENT phone         (#PCDATA)>
+<!ELEMENT year          (#PCDATA)>
+<!ELEMENT gpa           (#PCDATA)>
+<!ELEMENT major         (#PCDATA)>
+<!ELEMENT minor         (#PCDATA)>
+<!ELEMENT status        (#PCDATA)>
+<!ELEMENT advisor       (#PCDATA)>
+<!ELEMENT enroll-date   (#PCDATA)>
+<!ELEMENT grad-date     (#PCDATA)>
+
+<!ATTLIST student
+            SID CDATA #REQUIRED>

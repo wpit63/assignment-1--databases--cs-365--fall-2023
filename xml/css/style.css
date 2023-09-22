@@ -1,0 +1,77 @@
+:root,
+:root::before,
+student {
+    display: block;
+    line-height: 50px;
+}
+
+:root::before {
+    content: 'Student Index';
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 24px 0;
+  }
+
+:root {
+    background-color: bisque;
+}
+
+student::before {   
+    content: 'Student ID: ' attr(SID) '';
+}
+
+first-name::before {
+    content: ', First Name: ';
+}
+
+middle-name::before {
+    content: ', Middle Name: ';
+}
+
+last-name::before {
+    content: ', Last Name: ';
+}
+
+pref-name::before {
+    content: ', Preferred Name: ';
+}
+
+email::before {
+    content: ', Email: ';
+}
+
+phone::before {
+    content: ', Phone #: ';
+}
+
+year::before {
+    content: ', Year: ';
+}
+
+gpa::before {
+    content: ', GPA: ';
+}
+
+major::before {
+    content: ', Major: ';
+}
+
+minor::before {
+    content: ', Minor: ';
+}
+
+status::before {
+    content: ', Status: ';
+}
+
+advisor::before {
+    content: ', Advisor: ';
+}
+
+enroll-date::before {
+    content: ', Enrollment Date: ';
+}
+
+grad-date::before {
+    content: ', Graduation Date: ';
+}
