@@ -5,7 +5,7 @@
 <student-index>
     <student SID="1234567">
         <first-name>Gordon</first-name>
-        <middle-name>Mathhew</middle-name>
+        <middle-name>Mathew</middle-name>
         <last-name>Sumner</last-name>
         <pref-name>"Sting"</pref-name>
         <email>sting@thepolice.com</email>

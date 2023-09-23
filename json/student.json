@@ -1,0 +1,49 @@
+{
+    "studentIndex":{
+        "firstName":[
+            "Gordon", "Kim", "Saul", "Emily", "Mike"
+        ],
+        "middleName":[
+            "Mathew", " ", " ", " ", " "
+        ],
+        "lastName":[
+            "Sumner", "Thayil", "Hudson", "Kokal", "Inez"
+        ],
+        "prefName":[
+            "'Sting'", " ", "'Slash'", " ", " "
+        ],
+        "SID":[
+            "1234567", "4567890", "8302438", "2983928", "764526"
+        ],
+        "email":[
+            "sting@thepolice.com", "kim@soundgarden.com", "slash@gnr.com", "emily@warpaint.com", "mik@aic.com"
+        ],
+        "phone":[
+            "212.123.4567", "206.123.4567", "213.456.8392", "213.123.7654", "213.444.3323"
+        ],
+        "year":[
+            "first", "second", "fourth", "third", "second"
+        ],
+        "gpa":[
+            "4.0", "3.0", "2.0", "3.8", "4.0"
+        ],
+        "major":[
+            "Music", "Philosophy", "Music", "Political Science", "Business Management"
+        ],
+        "minor":[
+            "English", "Music", "Criminal Justice", "Law", "Math"
+        ],
+        "status":[
+            "full-time", "full-time", " part-time", "full-time", "full-time"
+        ],
+        "advisor":[
+            "Andy Summers", "Chris Cornell", "Axl Rose", "Jenny Lee Lindberg", "Jerry Cantrell"
+        ],
+        "enrollDate":[
+            "08-25-1969", "08-25-1978", "08-25-1983", "08-25-1998", "08-25-1984"
+        ],
+        "gradDate":[
+            "05-01-1973", "05-01-1982", "05-01-1987", "05-01-2002", "05-01-1988"
+        ]
+    }
+}
