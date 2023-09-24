@@ -3,6 +3,7 @@
 student {
     display: block;
     line-height: 50px;
+    padding-left: 5em;
 }
 
 :root::before {
@@ -13,65 +14,83 @@ student {
   }
 
 :root {
-    background-color: bisque;
+    
 }
 
 student::before {   
     content: 'Student ID: ' attr(SID) '';
 }
 
+student {
+    display: grid;
+}
+
 first-name::before {
-    content: ', First Name: ';
+    padding-left: 3em;
+    content: 'First Name: ';
 }
 
 middle-name::before {
-    content: ', Middle Name: ';
+    padding-left: 3em;
+    content: 'Middle Name: ';
 }
 
 last-name::before {
-    content: ', Last Name: ';
+    padding-left: 3em;
+    content: 'Last Name: ';
 }
 
 pref-name::before {
-    content: ', Preferred Name: ';
+    padding-left: 3em;
+    content: 'Preferred Name: ';
 }
 
 email::before {
-    content: ', Email: ';
+    padding-left: 3em;
+    content: 'Email: ';
 }
 
 phone::before {
-    content: ', Phone #: ';
+    padding-left: 3em;
+    content: 'Phone #: ';
 }
 
 year::before {
-    content: ', Year: ';
+    padding-left: 3em;
+    content: 'Year: ';
 }
 
 gpa::before {
-    content: ', GPA: ';
+    padding-left: 3em;
+    content: 'GPA: ';
 }
 
 major::before {
-    content: ', Major: ';
+    padding-left: 3em;
+    content: 'Major: ';
 }
 
 minor::before {
-    content: ', Minor: ';
+    padding-left: 3em;
+    content: 'Minor: ';
 }
 
 status::before {
-    content: ', Status: ';
+    padding-left: 3em;
+    content: 'Status: ';
 }
 
 advisor::before {
-    content: ', Advisor: ';
+    padding-left: 3em;
+    content: 'Advisor: ';
 }
 
 enroll-date::before {
-    content: ', Enrollment Date: ';
+    padding-left: 3em;
+    content: 'Enrollment Date: ';
 }
 
 grad-date::before {
-    content: ', Graduation Date: ';
+    padding-left: 3em;
+    content: 'Graduation Date: ';
 }
